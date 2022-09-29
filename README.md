@@ -4,7 +4,7 @@ Official Implementation of the paper - "An Optimized Deep Spiking Neural Network
 
 ## Usage
 
-A typical code usage of ODESA would like the following. 
+A typical code usage of ODESA would look like: 
 
 ```
 from ODESA.FullyConnected import FullyConnected as HiddenLayer
