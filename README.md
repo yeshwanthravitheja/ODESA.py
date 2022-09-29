@@ -6,7 +6,7 @@ Official Implementation of the paper - "An Optimized Deep Spiking Neural Network
 
 A typical code usage of ODESA would look like: 
 
-```
+```python
 from ODESA.FullyConnected import FullyConnected as HiddenLayer
 from ODESA.Classifier import Classifier as OutputLayer
 from ODESA.FCModel import FCModel as Model
