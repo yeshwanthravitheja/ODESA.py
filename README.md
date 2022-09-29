@@ -1,6 +1,7 @@
 # Python Implementation of ODESA - Optimized Deep Event-driven SNN Architecture.
 
 Official Implementation of the paper - "An Optimized Deep Spiking Neural Network Architecture Without Gradients"
+![STTP](https://user-images.githubusercontent.com/6342039/192964814-66465016-e92c-4477-9cd0-bf8c25c046e7.jpg)
 
 ## Usage
 
@@ -46,6 +47,9 @@ model.add_output_layer(output_layer)
 hidden_layer_winners, output_layer_winner, output_class = model.forward((x,y,ts,1),label)
 
 ```
+
+## Future work:
+A Julia implementation of ODESA which is much faster than the python version is in the works. Contact me @Y[dot]Bethi[at]westernsydney[dot]edu[dot]au if you are interested in that or need any help using ODESA for a spatio-temporal problem. 
 
 ## Citation for reference
 Bethi, Yeshwanth, Ying Xu, Gregory Cohen, André Van Schaik, and Saeed Afshar. "An optimised deep spiking neural network architecture without gradients." IEEE Access (2022).
